@@ -1,0 +1,16 @@
+/* layout global styles */
+
+:root {
+    /* colors variables */
+    --bg-body: #F5F6F6;
+    --bg-white: #fff;
+    --brand-color: #272D68;
+    --action-button: #272D68;
+    --text-color: #0B0B0B;
+    --font: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
