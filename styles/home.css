@@ -1,0 +1,10 @@
+/* home variables and styles */
+
+.header-main-banner {
+    width: auto;
+    padding-top: 2em;
+}
+
+.header-main-banner img{
+    width: 100%;
+}
