@@ -1,14 +1,24 @@
 /* home variables and styles */
 
-.header-main-banner {
+/* Banners */
+
+.header-main-banner, 
+.section-banner {
     width: auto;
+    
+}
+
+.header-main-banner {
     padding-top: 2em;
 }
 
-.header-main-banner img{
+.header-main-banner img, .section-banner img{
     width: 100%;
 
 }
+
+
+/* category */
 
 .main-category-area {
     padding: 4.5em 6em 3em;
@@ -42,3 +52,5 @@
     padding-top: 20px;
     text-align: center;
 }
+
+
