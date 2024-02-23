@@ -42,6 +42,12 @@ body {
     line-height: 1.5em;
 }
 
+.text-container {
+    padding: 12px 32px;
+    background-color: var(--bg-white);
+    border-radius: 15px;
+}
+
 .product-card-title , 
 .product-card-reference,
 .product-card-price {
@@ -161,7 +167,7 @@ font-size: 2em;
     position: relative;
 }
 
-.section-product-grid {
+.section-product-carrousel {
     
     padding-top: 3.125em;
     /* display: flex;
