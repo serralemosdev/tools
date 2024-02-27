@@ -34,12 +34,23 @@ body {
     align-items: center;
 }
 
+.column {
+    flex-direction: column;
+}
+
 /* fonts and texts */
 
 .main-text{
     font-size: 1.5em;
     font-weight: 700;
     line-height: 1.5em;
+}
+
+.page-title-small {
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1.5em;
+
 }
 
 .text-container {
@@ -151,10 +162,16 @@ font-size: 2em;
     list-style: none;
 }
 
-.header-navbar li{
+.header-navbar li {
     padding: 0 2em;
     font-size:14px;
 }
+
+.header-navbar li a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 
 .header-navbar .container-flex {
     justify-content: center;
